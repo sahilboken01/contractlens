@@ -1,5 +1,12 @@
 # ContractLens
 
+> AI-powered contract intelligence platform for document analysis, semantic search, RAG-based Q&A, and citation-grounded insights.
+
+🚀 **Live Demo:** https://contractlens-snowy.vercel.app/
+
+
+# ContractLens
+
 ContractLens is an intelligent contract analysis project. Its current MVP provides document upload and extraction, chunking, open-source embeddings, PostgreSQL/pgvector persistence, document-scoped semantic search, grounded question answering, and structured contract analysis with source citations for PDF, DOCX, and TXT contracts.
 
 ## Project structure
