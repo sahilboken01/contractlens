@@ -1,0 +1,74 @@
+{
+  "contracts": [
+    {
+      "document_id": "synthetic-aurora-001",
+      "title": "Aurora Consulting Services Agreement",
+      "chunks": [
+        {"chunk_id": "aurora-parties-dates", "source_locator": "Section 1 - Parties and Term", "page_number": 1, "text": "CONSULTING SERVICES AGREEMENT. Parties: Aurora Analytics, Inc. (Provider) and Pinecone Retail LLC (Client). Effective date: January 15, 2025. Expiration date: January 14, 2026."},
+        {"chunk_id": "aurora-payment", "source_locator": "Section 4 - Fees and Payment", "page_number": 3, "text": "The monthly payment amount is $12,500. Client must pay each invoice within 20 calendar days after receipt. Payment deadline: 20 calendar days."},
+        {"chunk_id": "aurora-termination", "source_locator": "Section 8 - Termination", "page_number": 6, "text": "Termination conditions: Either party may terminate for material breach if the breach is not cured within 15 days after written notice. Either party may terminate for convenience with 45 days written notice."},
+        {"chunk_id": "aurora-renewal", "source_locator": "Section 2 - Renewal", "page_number": 2, "text": "This agreement automatically renews for successive one-year renewal periods unless either party gives written nonrenewal notice at least 60 days before the current term ends."},
+        {"chunk_id": "aurora-confidentiality", "source_locator": "Section 9 - Confidentiality", "page_number": 7, "text": "Confidentiality obligations: Each party must protect the other party's confidential information and use it only to perform this agreement. Obligations continue for three years after expiration."},
+        {"chunk_id": "aurora-ip", "source_locator": "Section 10 - Intellectual Property", "page_number": 8, "text": "Intellectual property: Work product created specifically for Client under this agreement is owned by Client. Provider retains ownership of pre-existing tools and materials."},
+        {"chunk_id": "aurora-nonsolicit", "source_locator": "Section 11 - Non-Solicitation", "page_number": 9, "text": "Non-solicitation provision: For 12 months after termination, neither party will solicit for employment the other party's employees who worked on this engagement."},
+        {"chunk_id": "aurora-law-disputes", "source_locator": "Section 13 - Governing Law and Disputes", "page_number": 11, "text": "Governing law: This agreement is governed by the laws of the State of Delaware. Dispute resolution: Disputes shall be resolved by binding arbitration in Wilmington, Delaware."},
+        {"chunk_id": "aurora-obligations", "source_locator": "Section 3 - Services", "page_number": 2, "text": "Provider will deliver monthly analytics reports by the fifth business day of each month. Client will provide the data access reasonably necessary to perform the services."},
+        {"chunk_id": "aurora-invoice-review", "source_locator": "Section 4 - Invoice Review", "page_number": 4, "text": "Invoice objection deadline: Client must object to an invoice within five calendar days after receipt. An invoice not disputed within that period is deemed accepted."}
+      ],
+      "expected_analysis": {
+        "contract_type": [{"value": "Consulting Services Agreement", "chunk_id": "aurora-parties-dates"}],
+        "parties": [{"value": "Aurora Analytics, Inc.", "chunk_id": "aurora-parties-dates"}, {"value": "Pinecone Retail LLC", "chunk_id": "aurora-parties-dates"}],
+        "effective_date": [{"value": "January 15, 2025", "chunk_id": "aurora-parties-dates"}],
+        "expiration_date": [{"value": "January 14, 2026", "chunk_id": "aurora-parties-dates"}],
+        "renewal_terms": [{"value": "Automatically renews for successive one-year renewal periods unless either party gives written nonrenewal notice at least 60 days before the current term ends.", "chunk_id": "aurora-renewal"}],
+        "notice_periods": [{"value": "At least 60 days before term end for nonrenewal.", "chunk_id": "aurora-renewal"}, {"value": "45 days written notice for termination for convenience.", "chunk_id": "aurora-termination"}],
+        "payment_terms": [{"value": "$12,500 monthly; invoices due within 20 calendar days after receipt.", "chunk_id": "aurora-payment"}],
+        "termination_conditions": [{"value": "Material breach not cured within 15 days after written notice; either party may also terminate for convenience with 45 days written notice.", "chunk_id": "aurora-termination"}],
+        "confidentiality_obligations": [{"value": "Protect and use the other party's confidential information only to perform the agreement; obligations continue for three years after expiration.", "chunk_id": "aurora-confidentiality"}],
+        "intellectual_property_provisions": [{"value": "Client owns work product created specifically for it; Provider retains pre-existing tools and materials.", "chunk_id": "aurora-ip"}],
+        "non_compete_non_solicitation": [{"value": "Neither party may solicit the other party's engaged employees for 12 months after termination.", "chunk_id": "aurora-nonsolicit"}],
+        "governing_law": [{"value": "State of Delaware.", "chunk_id": "aurora-law-disputes"}],
+        "dispute_resolution": [{"value": "Binding arbitration in Wilmington, Delaware.", "chunk_id": "aurora-law-disputes"}],
+        "major_obligations": [{"value": "Provider delivers monthly analytics reports by the fifth business day of each month.", "chunk_id": "aurora-obligations"}, {"value": "Client provides data access reasonably necessary for the services.", "chunk_id": "aurora-obligations"}],
+        "important_deadlines": [{"value": "Monthly reports are due by the fifth business day of each month.", "chunk_id": "aurora-obligations"}, {"value": "Invoice objections are due within five calendar days after receipt.", "chunk_id": "aurora-invoice-review"}],
+        "other_important_clauses": [{"value": "Undisputed invoices are deemed accepted after five calendar days.", "chunk_id": "aurora-invoice-review"}],
+        "attention_items": [{"value": "An invoice is deemed accepted if Client does not object within five calendar days after receipt.", "chunk_id": "aurora-invoice-review"}]
+      },
+      "expected_missing_fields": []
+    },
+    {
+      "document_id": "synthetic-cedar-002",
+      "title": "Cedar Evaluation Agreement",
+      "chunks": [
+        {"chunk_id": "cedar-parties", "source_locator": "Page 1 - Parties", "page_number": 1, "text": "SOFTWARE EVALUATION AGREEMENT. Parties: Cedar Grove Ltd. (Supplier) and Meridian Foods Inc. (Customer). The start date is March 1, 2025."},
+        {"chunk_id": "cedar-usage", "source_locator": "Section 2 - Evaluation Use", "page_number": 2, "text": "Customer may use the evaluation environment solely for internal testing. No fee is charged during the evaluation term."},
+        {"chunk_id": "cedar-termination-confidentiality", "source_locator": "Sections 5 and 6", "page_number": 4, "text": "Either party may end the evaluation at any time by written notice. Each party must protect confidential information received from the other party."}
+      ],
+      "expected_analysis": {
+        "contract_type": [{"value": "Software Evaluation Agreement", "chunk_id": "cedar-parties"}],
+        "parties": [{"value": "Cedar Grove Ltd.", "chunk_id": "cedar-parties"}, {"value": "Meridian Foods Inc.", "chunk_id": "cedar-parties"}],
+        "effective_date": [{"value": "March 1, 2025", "chunk_id": "cedar-parties"}],
+        "major_obligations": [{"value": "Customer may use the evaluation environment solely for internal testing.", "chunk_id": "cedar-usage"}, {"value": "Each party must protect confidential information received from the other party.", "chunk_id": "cedar-termination-confidentiality"}]
+      },
+      "expected_missing_fields": ["expiration_date", "renewal_terms", "payment_terms", "governing_law"]
+    }
+  ],
+  "retrieval_cases": [
+    {"case_id": "parties-alpha", "document_id": "synthetic-aurora-001", "question": "Who are the named parties?", "expected_chunk_ids": ["aurora-parties-dates"], "top_k": 3},
+    {"case_id": "expiration-alpha", "document_id": "synthetic-aurora-001", "question": "What is the expiration date?", "expected_chunk_ids": ["aurora-parties-dates"], "top_k": 3},
+    {"case_id": "payment-alpha", "document_id": "synthetic-aurora-001", "question": "What is the payment deadline for invoices?", "expected_chunk_ids": ["aurora-payment"], "top_k": 3},
+    {"case_id": "termination-alpha", "document_id": "synthetic-aurora-001", "question": "What happens after a material breach?", "expected_chunk_ids": ["aurora-termination"], "top_k": 3},
+    {"case_id": "renewal-alpha", "document_id": "synthetic-aurora-001", "question": "What is the automatic renewal period?", "expected_chunk_ids": ["aurora-renewal"], "top_k": 3},
+    {"case_id": "governing-law-alpha", "document_id": "synthetic-aurora-001", "question": "What governing law applies?", "expected_chunk_ids": ["aurora-law-disputes"], "top_k": 3},
+    {"case_id": "parties-beta-isolation", "document_id": "synthetic-cedar-002", "question": "Who are the named parties?", "expected_chunk_ids": ["cedar-parties"], "top_k": 3}
+  ],
+  "rag_cases": [
+    {"case_id": "parties-answer", "document_id": "synthetic-aurora-001", "question": "Who are the named parties?", "expected_answer_contains": "Aurora Analytics, Inc.", "expected_chunk_id": "aurora-parties-dates"},
+    {"case_id": "expiration-answer", "document_id": "synthetic-aurora-001", "question": "What is the expiration date?", "expected_answer_contains": "January 14, 2026", "expected_chunk_id": "aurora-parties-dates"},
+    {"case_id": "payment-answer", "document_id": "synthetic-aurora-001", "question": "What is the payment deadline for invoices?", "expected_answer_contains": "20 calendar days", "expected_chunk_id": "aurora-payment"},
+    {"case_id": "termination-answer", "document_id": "synthetic-aurora-001", "question": "What happens after a material breach?", "expected_answer_contains": "15 days after written notice", "expected_chunk_id": "aurora-termination"},
+    {"case_id": "renewal-answer", "document_id": "synthetic-aurora-001", "question": "What is the automatic renewal period?", "expected_answer_contains": "successive one-year renewal periods", "expected_chunk_id": "aurora-renewal"},
+    {"case_id": "missing-governing-law", "document_id": "synthetic-cedar-002", "question": "What governing law applies?", "not_found": true},
+    {"case_id": "missing-payment-deadline", "document_id": "synthetic-cedar-002", "question": "What is the invoice payment deadline?", "not_found": true}
+  ]
+}
